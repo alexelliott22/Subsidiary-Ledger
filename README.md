@@ -1,8 +1,8 @@
-# Fixed Asset Sub-Ledger
+# DepreciateMe
 
 ## Description
 
-Fixed Assets Subsidiary Ledger is used to manage purchase, sale, allocation, and retirement of fixed assets. This particular ledger is used to
+DepreciateMe is used to manage purchase, sale, allocation, and retirement of fixed assets. This particular ledger is used to
 keep track of monthly depreciation of a small businesses fixed assets. This app keeps track of asset book value, month purchased, useful life, monthly depreciation expense, and accumulated depreciation.
 The app allows tracking of multiple assets, aligning them into rows.
 

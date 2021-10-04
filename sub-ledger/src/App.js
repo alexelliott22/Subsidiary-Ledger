@@ -59,7 +59,7 @@ function App() {
         <div className="outer">
           <div className="inner">
             <Switch>
-              <Route exact path="/" component={SignUp} />
+            {Auth.loggedIn() ? (<Route exact path="/" component={HomePage} />) : (<Route exact path="/" component={SignUp} />)}
               <Route path="/sign-in" component={Login} />
               <Route path="/homepage" component={HomePage} />
               <Route path="/sign-up" component={SignUp} />
